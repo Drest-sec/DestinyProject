@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1768149692 source:c:\s102\src\avatar.cpp
+	<vector>
+	"personnage.h"
+	"Image.h"
+	"Avatar.h"
+
+1767100255 source:c:\s102\src\coffre.cpp
+	<iostream>
+	<vector>
+	"Image.h"
+	"coffre.h"
+
+1767100255 source:c:\s102\src\dictionnaire.cpp
+	"Dictionnaire.h"
+	"Tuile.h"
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+
+1767100255 source:c:\s102\src\ennemi.cpp
+	<vector>
+	<ctime>
+	"personnage.h"
+	"Image.h"
+	"ennemi.h"
+	"Avatar.h"
+
+1767100255 source:c:\s102\src\image.cpp
+	<SDL_image.h>
+	<exception>
+	"Image.h"
+
+1767100255 source:c:\s102\src\moteur.cpp
+	<SDL_image.h>
+	"Moteur.h"
+
+1767100255 source:c:\s102\src\niveau.cpp
+	"Niveau.h"
+	<fstream>
+
+1767100255 source:c:\s102\src\objet.cpp
+	"objet.h"
+
+1767100255 source:c:\s102\src\personnage.cpp
+	<vector>
+	"personnage.h"
+	"Image.h"
+
+1767100255 source:c:\s102\src\tuile.cpp
+	<iostream>
+	"Tuile.h"
+
+1767108507 source:c:\s102\src\main.cpp
+	<vector>
+	<ctime>
+	"Moteur.h"
+	"Image.h"
+	"coffre.h"
+	"personnage.h"
+	"Avatar.h"
+	"ennemi.h"
+	"Dictionnaire.h"
+	"Tuile.h"
+	"objet.h"
+	"Niveau.h"
+
