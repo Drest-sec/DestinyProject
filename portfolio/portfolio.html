@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destiny Creve Coeur | Portfolio Cybersécurité</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/portfolio.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo">DESTINY<span>_</span></div>
+            <ul class="nav-links">
+                <li><a href="#a-propos">Profil</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="mailto:destiny.creve-coeur@universite-paris-saclay.fr" class="nav-contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container">
+            <div class="profile-frame">
+                <img src="./images/photo-profil.png" alt="Destiny Creve Coeur" class="profile-picture">
+            </div>
+            <h1>Destiny Creve Coeur</h1>
+            <p class="tagline">Étudiant en BUT Informatique <span class="separator">|</span> Aspirant Pentester</p>
+            <div class="hero-buttons">
+                <a href="#projets" class="cta-button">Direction mes Projets</a>
+                <a href="https://github.com/Drest-sec/DestinyProject" target="_blank" class="cta-button secondary">GitHub</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="a-propos" class="card">
+            <h2><span class="cmd">&gt;</span> Qui suis-je ?</h2>
+            <p>
+                Actuellement en <strong>BUT Informatique</strong> à l'Université Paris-Saclay, je souhaite me spécialiser dans la sécurité offensive. 
+                Passionné par les systèmes Linux et la recherche de vulnérabilités, je combine curiosité technique et rigueur académique pour devenir <strong>Pentester</strong>.
+            </p>
+        </section>
+
+        <section id="competences" class="card">
+            <h2><span class="cmd">&gt;</span> Hard Skills</h2>
+                <div class="skill-group">
+                    <h3>Développement</h3>
+                    <ul>
+                        <li>C++</li>
+                        <li>Python (Pygame)</li>
+                        <li>SQL</li>
+						<li>Java</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+		
+		<section id="competences" class="card">
+            <h2><span class="cmd">&gt;</span> Soft Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-group">
+                    <ul>
+                        <li>Attentif</li>
+                        <li>Sérieux</li>
+                        <li>Assidus</li>
+						<li>A l'écoute</li>
+						<li>Positif</li>
+						<li>Travailleur</li>
+						<li>Curieux</li>
+						<li>Passionné</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projets" class="card">
+            <h2><span class="cmd">&gt;</span> ls ./Projets/</h2>
+            <div class="projects-grid">
+                
+                <article class="project-box">
+                    <div class="project-header">
+                        <span class="project-tag">Linux</span>
+                        <h3>Sécurisation Debian</h3>
+                    </div>
+                    <p>Déploiement Raspberry Pi : gestion fine des droits utilisateurs, MariaDB et accès distant SSH ultra-sécurisé.</p>
+                </article>
+
+                <article class="project-box">
+                    <div class="project-header">
+                        <span class="project-tag">C++</span>
+                        <h3>Moteur de Jeu 2D</h3>
+                        <p>SAE S1 : Développement d'un jeu d'esquive avec gestion des collisions et IA des ennemis.</p>
+                    </div>
+                    <a href="https://github.com/Drest-sec/DestinyProject/tree/main/Game" class="project-link">Repo GitHub _</a>
+                </article>
+
+                <article class="project-box">
+                    <div class="project-header">
+                        <span class="project-tag">SQL</span>
+                        <h3>Modélisation BDD</h3>
+                    </div>
+                    <p>Analyse de besoins et écriture de requêtes complexes pour un système de données simulées.</p>
+                    
+                </article>
+
+                <article class="project-box">
+                    <div class="project-header">
+                        <span class="project-tag">Web</span>
+                        <h3>Site Vitrine Cuba</h3>
+                    </div>
+                    <p>Projet axé sur le design Mobile First et les standards d'accessibilité web (HTML/CSS).</p>
+                </article>
+				
+				<article class="project-box">
+                    <div class="project-header">
+                        <span class="project-tag">Python</span>
+                        <h3>Space Shooter</h3>
+                    </div>
+                    <p>Projet axé sur Pygame co-développé avec un ami, on aborde lq gestion de collison ainsi que le déplqcement.</p>
+					 <a href="https://github.com/Drest-sec/DestinyProject/tree/main/Game" class="project-link">Repo GitHub _</a>
+                </article>
+				
+				<article class="project-box">
+                    <div class="project-header">
+                        <span class="project-tag">Java</span>
+                        <h3>Gestionnaire de Contact</h3>
+                    </div>
+                    <p>Premier projet java avec menu interactive.</p>
+					 <a href="https://github.com/Drest-sec/DestinyProject/tree/main/Game" class="project-link">Repo GitHub _</a>
+                </article>
+				
+				<article class="project-box">
+                    <div class="project-header">
+                        <span class="project-tag">Java</span>
+                        <h3>To Do List</h3>
+                    </div>
+                    <p>Projet personnel, comme je fais souvent les courses j'ai décidé de créer une liste à faire afin de rentrer ce que je dois acheter avec de
+					option de supression et d'ajout.</p>
+					 <a href="https://github.com/Drest-sec/DestinyProject/tree/main/Game" class="project-link">Repo GitHub _</a>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-simple">
+        <p>Destiny@Root:~$ <span class="blink">_</span></p>
+        <div class="footer-links">
+            <a href="https://github.com/Drest-sec/DestinyProject">GitHub</a>
+			<a href="https://www.linkedin.com/in/destiny-cr%C3%A8ve-coeur-1767a435a/">Linkledln</a>
+        </div>
+    </footer>
+
+</body>
+</html>
